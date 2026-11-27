@@ -1,0 +1,49 @@
+{
+  "snapshot": {
+    "file": "Synthetic_GNMTC_Vessel_Cost_Risk_Data (2).xlsx",
+    "bytes": 761904,
+    "modified": "2026-11-27 15:48:02",
+    "rows_vessels": 14,
+    "rows_monthly": 3472,
+    "rows_transactions": 10361,
+    "rows_handover": 10
+  },
+  "totals": {
+    "budget": 24765499.35,
+    "actual": 25351491.19,
+    "variance": 585991.84,
+    "nonbudgeted": 711718.5,
+    "budgeted_gap": -125726.66,
+    "off_budget_source": 106513.8,
+    "urgent": 1043294.25
+  },
+  "checks": {
+    "Vessel IDs are unique in Vessel_Master": "Pass",
+    "Monthly vessel IDs exist in Vessel_Master": "Pass",
+    "Transaction vessel IDs exist in Vessel_Master": "Pass",
+    "Handover vessel IDs exist in Vessel_Master": "Pass",
+    "Monthly vessel names match Vessel_Master": "Pass",
+    "Monthly key (vessel, month, category) is unique": "Pass",
+    "Monthly grid is complete": "Pass",
+    "Variance_USD equals Actual_USD minus Budget_USD": "Pass",
+    "Variance_Pct equals variance divided by budget": "Pass",
+    "Budget_USD is positive on every row": "Pass",
+    "Transaction amounts are positive": "Pass",
+    "Transaction IDs are unique": "Pass",
+    "Transactions roll up to monthly actual": "Pass",
+    "Off_Budget_USD equals non-budgeted transaction spend": "Known issue",
+    "Overdue issues do not exceed open issues": "Known issue",
+    "Every vessel has a handover record": "Known issue"
+  },
+  "workbook": "C:\\Workspace\\ESMAssignment\\Assignment2\\Assignment2\\submitted\\outputs\\GNMTC_Vessel_Cost_Analysis.xlsx",
+  "charts": [
+    "01_fleet_bridge.png",
+    "02_vessel_year_heatmap.png",
+    "03_technical_quarterly.png",
+    "04_nonbudgeted_by_vessel.png",
+    "05_focus_runrate.png",
+    "06_handover_matrix.png",
+    "07_early_warning_timeline.png",
+    "08_offbudget_vs_nonbudgeted.png"
+  ]
+}

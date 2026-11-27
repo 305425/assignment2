@@ -1,0 +1,82 @@
+{
+  "budget": "$24,765,499",
+  "actual": "$25,351,491",
+  "variance": "$585,992",
+  "variance_pct": "+2.4%",
+  "nonbudgeted": "$711,719",
+  "budgeted_gap": "-$125,727",
+  "pace": {
+    "2024": "$13,110",
+    "2025": "$21,039",
+    "2026": "$25,172"
+  },
+  "pct_by_year": {
+    "2024": "+1.6%",
+    "2025": "+2.6%",
+    "2026": "+3.2%"
+  },
+  "focus_vessels": "E48, H72, B78, K56, M75",
+  "focus_share": "86%",
+  "h72_h1": "+7.2%",
+  "e48_h1": "+6.3%",
+  "h72_months": 28,
+  "e48_months": 29,
+  "h72_2026": "+11.5%",
+  "e48_2026": "+9.7%",
+  "repairs": [
+    "+2.7%",
+    "+5.3%",
+    "+7.1%"
+  ],
+  "safety": [
+    "+0.1%",
+    "+6.0%",
+    "+9.3%"
+  ],
+  "wages_var": "$2,927",
+  "wages_nb": "$181,800",
+  "wages_gap": "-$178,873",
+  "k56_var": "$86,887",
+  "k56_nb": "$185,428",
+  "k56_gap": "-$98,540",
+  "deferred": "$1,336,384",
+  "missing_records": "B78, M75, L96, G17",
+  "ew": {
+    "precision": "76%",
+    "recall": "64%",
+    "false_alarms": "16%",
+    "base_precision": "60%",
+    "base_recall": "48%",
+    "lr_precision": "65%",
+    "lr_recall": "52%"
+  },
+  "ew_test_rows": 56,
+  "latest_escalate": "H72, E48, B78, M75, K56",
+  "latest_period": "July 2026",
+  "handover_groups": [
+    {
+      "decision": "Fix cost control and deferred work before accepting responsibility",
+      "vessels": "E48, H72 (Handover Review), K56"
+    },
+    {
+      "decision": "Investigate unbudgeted spend; create a handover record",
+      "vessels": "B78, M75"
+    },
+    {
+      "decision": "Monitor budget drift; create a handover record",
+      "vessels": "L96"
+    },
+    {
+      "decision": "Deferred-work decision; cost control can continue",
+      "vessels": "I27 (Handover Review), N77, C68, D49 (Handover Review), J18, F86 (Handover Review)"
+    },
+    {
+      "decision": "Continue; create a handover record",
+      "vessels": "G17"
+    },
+    {
+      "decision": "Continue current control",
+      "vessels": "A17"
+    }
+  ]
+}
